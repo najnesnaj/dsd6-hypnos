@@ -1,0 +1,2 @@
+osource "/usr/src/dsd6-hypnos/app/hypnos/../boards/shields/*/Kconfig.shield"
+osource "/usr/src/dsd6-hypnos/zephyr/boards/shields/*/Kconfig.shield"

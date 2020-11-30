@@ -1,0 +1,3 @@
+./hypnos/src/clock.c:static u64_t uptime_ms;
+./hypnos/src/clock.c:static u64_t last_uptime_ms;
+./hypnos/src/clock.c:static u64_t elapsed_ms;

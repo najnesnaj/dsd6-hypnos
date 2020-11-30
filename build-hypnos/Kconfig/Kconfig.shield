@@ -1,0 +1,2 @@
+osource "/usr/src/pinetime-hypnos/app/hypnos/../boards/shields/*/Kconfig.shield"
+osource "/usr/src/pinetime-hypnos/zephyr/boards/shields/*/Kconfig.shield"

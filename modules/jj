@@ -1,0 +1,19 @@
+./lib/mcumgr/cmd/img_mgmt/include/img_mgmt/image.h:#define IMAGE_MAGIC                 0x96f3b83d
+./lib/mcumgr/cmd/img_mgmt/src/img_mgmt.c:    if (hdr.ih_magic == IMAGE_MAGIC) {
+./lib/mcumgr/cmd/img_mgmt/port/zephyr/src/zephyr_img_mgmt.c:        if (hdr->ih_magic != IMAGE_MAGIC) {
+./lib/mcumgr/cmd/img_mgmt/port/mynewt/src/mynewt_img_mgmt.c:        if (hdr->ih_magic != IMAGE_MAGIC) {
+./tee/tfm/mcuboot/scripts/imgtool/image.py:IMAGE_MAGIC = 0x96f3b83d
+./tee/tfm/mcuboot/scripts/imgtool/image.py:                IMAGE_MAGIC,
+./tee/tfm/mcuboot/scripts/imgtool/image.py:        if magic != IMAGE_MAGIC:
+./tee/tfm/mcuboot/boot/bootutil/include/bootutil/image.h:#define IMAGE_MAGIC                 0x96f3b83d
+./tee/tfm/mcuboot/boot/bootutil/include/bootutil/image.h:#define IMAGE_MAGIC_V1              0x96f3b83c
+./tee/tfm/mcuboot/boot/bootutil/include/bootutil/image.h:#define IMAGE_MAGIC_NONE            0xffffffff
+./tee/tfm/mcuboot/boot/bootutil/src/loader.c:    if (hdr->ih_magic != IMAGE_MAGIC) {
+./tee/tfm/mcuboot/boot/bootutil/src/loader.c:        if (hdr->ih_magic == IMAGE_MAGIC) {
+./tee/tfm/mcuboot/boot/bootutil/src/loader.c:        if (hdr->ih_magic == IMAGE_MAGIC) {
+./tee/tfm/mcuboot/boot/bootutil/src/loader.c:                            BOOT_SECONDARY_SLOT)->ih_magic == IMAGE_MAGIC &&
+./tee/tfm/mcuboot/boot/bootutil/src/loader.c:        if (BOOT_IMG(state, BOOT_PRIMARY_SLOT).hdr.ih_magic != IMAGE_MAGIC) {
+./tee/tfm/mcuboot/boot/bootutil/src/swap_move.c:    if (bs != NULL && out_hdr->ih_magic != IMAGE_MAGIC) {
+./tee/tfm/mcuboot/boot/boot_serial/src/boot_serial.c:            if (hdr.ih_magic != IMAGE_MAGIC ||
+./tee/tfm/mcuboot/docs/design.md:#define IMAGE_MAGIC                 0x96f3b83d
+./tee/tfm/mcuboot/docs/design.md:  * 32-bit magic number must be correct (`IMAGE_MAGIC`).

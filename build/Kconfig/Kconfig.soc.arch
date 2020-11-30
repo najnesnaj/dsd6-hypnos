@@ -1,0 +1,2 @@
+osource "/usr/src/dsd6-hypnos/zephyr/soc/$(ARCH)/Kconfig"
+osource "/usr/src/dsd6-hypnos/zephyr/soc/$(ARCH)/*/Kconfig"
